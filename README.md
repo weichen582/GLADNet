@@ -9,12 +9,12 @@ GLADNet: Low-Light Enhancement Network with Global Awareness. In [FG'18](https:/
 
 ![Teaser Image](https://github.com/daooshee/fgworkshop18Gladnet/blob/master/images/fg-1478.jpg)
 
-### Requirements ###
+## Requirements ##
 1. Python
 2. Tensorflow >= 1.3.0
 3. numpy, PIL
 
-### Testing  Usage ###
+## Testing  Usage ##
 To quickly test your own images with our model, you can just run through
 ```shell
 python main.py 
@@ -25,7 +25,7 @@ python main.py
     --test_dir=/path/to/your/test/dir/ \
     --save_dir=/path/to/save/results/ \
 ```
-### Training Usage ###
+## Training Usage ##
 First, download training data set from [our project page](https://daooshee.github.io/fgworkshop18Gladnet/). Save training pairs of our LOL dataset under `./data/train/low/`, and synthetic pairs under `./data/train/normal/`.
 Then, start training by 
 ```shell
@@ -43,7 +43,7 @@ python main.py
     --sample_dir=./sample                   # dir for saving evaluation results during training
  ```
  
- ### Experiment Results ###
+ ## Experiment Results ##
  #### Subjective Results ####
  ![Subjective Result](https://github.com/daooshee/fgworkshop18Gladnet/blob/master/images/result-1532-2.jpg)
  #### Objective Results ####
@@ -65,7 +65,7 @@ We use the [Naturalness Image Quality Evaluator (NIQE)](https://ieeexplore.ieee.
   <br>
   ![APP2](https://raw.githubusercontent.com/daooshee/fgworkshop18Gladnet/master/images/app2-1482.jpg)
 
- ### Citation ###
+ ## Citation ##
  ```
 @inproceedings{wang2018gladnet,
   title={GLADNet: Low-Light Enhancement Network with Global Awareness},
@@ -77,6 +77,6 @@ We use the [Naturalness Image Quality Evaluator (NIQE)](https://ieeexplore.ieee.
 }
 ```
 
-### Related Follow-Up Work ###
+## Related Follow-Up Work ##
 Deep Retinex Decomposition: <b>Deep Retinex Decomposition for Low-Light Enhancement</b>. Chen Wei*, Wenjing Wang*, Wenhan Yang, Jiaying Liu. (* indicates equal contributions) In BMVC'18 (Oral Presentation) [Website](https://daooshee.github.io/BMVC2018website/) [Github](https://github.com/weichen582/RetinexNet)
  
