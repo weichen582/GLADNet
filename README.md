@@ -26,7 +26,7 @@ python main.py
     --save_dir=/path/to/save/results/ \
 ```
 ### Training Usage ###
-First, download training data set from [our project page](https://daooshee.github.io/fgworkshop18Gladnet/). Save training pairs of our LOL dataset under `./data/low/`, and synthetic pairs under `./data/normal/`.
+First, download training data set from [our project page](https://daooshee.github.io/fgworkshop18Gladnet/). Save training pairs of our LOL dataset under `./data/train/low/`, and synthetic pairs under `./data/train/normal/`.
 Then, start training by 
 ```shell
 python main.py
@@ -76,4 +76,7 @@ We use the [Naturalness Image Quality Evaluator (NIQE)](https://ieeexplore.ieee.
   organization={IEEE}
 }
 ```
+
+### Related Follow-Up Work ###
+Deep Retinex Decomposition: <b>Deep Retinex Decomposition for Low-Light Enhancement</b>. Chen Wei*, Wenjing Wang*, Wenhan Yang, Jiaying Liu. (* indicates equal contributions) In BMVC'18 (Oral Presentation) [Website](https://daooshee.github.io/BMVC2018website/) [Github](https://github.com/weichen582/RetinexNet)
  
