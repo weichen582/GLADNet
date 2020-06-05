@@ -1,5 +1,7 @@
 # GLADNet
 
+UPDATE: This fork contains Tensorflow 2.0 implementation of GLADNet.
+
 This is a Tensorflow implantation of GLADNet
 
 GLADNet: Low-Light Enhancement Network with Global Awareness. In [FG'18](https://fg2018.cse.sc.edu/index.html) Workshop [FOR-LQ 2018](http://staff.ustc.edu.cn/~dongeliu/forlq2018/index.html) <br>
