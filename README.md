@@ -1,6 +1,6 @@
 # GLADNet
 
-UPDATE: This fork contains Tensorflow 2.0 implementation of GLADNet.
+UPDATE: This fork contains Tensorflow 2.0 implementation of GLADNet in GLADNet2.0 directory.
 
 <hr>
 This is a Tensorflow implantation of GLADNet
